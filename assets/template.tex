@@ -1,0 +1,72 @@
+\documentclass[a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{amsmath} % Added to enable \text command
+
+% Customize comments
+\renewcommand{\algorithmiccomment}[1]{\hfill $\triangleright$ #1}
+
+\title{Graph Transformer Algorithm for Intrusion Detection Systems (IDS)}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Graph Transformer Training and Evaluation Algorithm}
+
+The Graph Transformer model is trained and evaluated using the following algorithm:
+
+\begin{algorithm}
+\caption{Graph Transformer Training and Evaluation for IDS}\label{alg:graph_transformer}
+\begin{algorithmic}[1]
+\Require $G = (V, E)$: Graph representation, $X$: Feature matrix, $Y$: Labels, $\mathcal{D}_{train}, \mathcal{D}_{test}$: Datasets, Hyperparameters: $\eta, P, B$
+\Ensure Trained model $M$, Evaluation metrics
+
+\State \textbf{Step 1: Data Preprocessing}
+    \State Normalize feature matrix $X$. \Comment{Scale features to [0, 1]}
+    \State Encode labels $Y$ as binary or multi-class categories.
+
+\State \textbf{Step 2: Graph Construction}
+    \State Represent network traffic as $G = (V, E)$. \Comment{Nodes: Devices/Packets, Edges: Interactions}
+    \State Update adjacency matrix $A$ dynamically. \Comment{For dynamic graphs}
+
+\State \textbf{Step 3 Model Initialization}
+    \State Initialize Graph Transformer with:
+        \State - Multi-head attention layers with $H$ heads.
+        \State - Feed-forward neural networks with hidden dimensions $d$.
+        \State - Dropout layers with dropout rate $p$.
+
+\State \textbf{Step 4: Training Process}
+    \State Divide $\mathcal{D}_{train}$ into mini-batches of size $B$.
+    \State Initialize $ \text{best\_loss} = \infty $, $ \text{patience\_counter} = 0 $.
+    \While{$ \text{patience\_counter} < P $} \Comment{Early stopping condition}
+        \For{each mini-batch $ b $ in $ \mathcal{D}_{train} $}
+            \State Forward pass: Compute predictions $ \hat{Y}_b $.
+            \State Compute loss $ \mathcal{L}_b $ using Cross-Entropy Loss:
+                \[
+                \mathcal{L}_b = -\frac{1}{B} \sum_{i=1}^{B} \left[ Y_i \log(\hat{Y}_i) + (1 - Y_i) \log(1 - \hat{Y}_i) \right]
+                \]
+            \State Backward pass: Update parameters using Adam optimizer with learning rate $\eta$.
+        \EndFor
+        \State Compute validation loss $ \mathcal{L}_{val} $ on $ \mathcal{D}_{val} $.
+        \If{$ \mathcal{L}_{val} < \text{best\_loss} $}
+            \State Update $ \text{best\_loss} = \mathcal{L}_{val} $.
+            \State Reset $ \text{patience\_counter} = 0 $.
+        \Else
+            \State Increment $ \text{patience\_counter} $ by 1.
+        \EndIf
+    \EndWhile
+
+\State \textbf{Step 5: Evaluation}
+    \State Evaluate $ M $ on $ \mathcal{D}_{test} $.
+    \State Compute metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+
+\State \textbf{Step 6: Return}
+    \State \Return Trained model $ M $ and evaluation metrics.
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}
