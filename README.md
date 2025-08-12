@@ -1,6 +1,5 @@
 # Flutter Crypto App
 
-<<<<<<< HEAD
 ## Overview
 
 The Flutter Crypto App is a cutting-edge mobile application designed for cryptocurrency enthusiasts and traders. Built with Flutter, this app provides real-time insights into the cryptocurrency market, empowering users to make informed decisions.
@@ -28,9 +27,8 @@ Below are some screenshots of the app:
 - <img src="images/Screenshot_1740620226.png" alt="Screenshot 6" width="300" style="margin-bottom: 20px;">
 - <img src="images/Screenshot_1740620232.png" alt="Screenshot 7" width="300" style="margin-bottom: 20px;">
 - <img src="images/Screenshot_1740620250.png" alt="Screenshot 8" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620260.png" alt="Screenshot 9" width="300" style="margin-bottom: 20px;">
-=======
-A modern Android app built with Flutter for tracking cryptocurrency prices and market data.
+- # <img src="images/Screenshot_1740620260.png" alt="Screenshot 9" width="300" style="margin-bottom: 20px;">
+  A modern Android app built with Flutter for tracking cryptocurrency prices and market data.
 
 ---
 
@@ -41,6 +39,7 @@ A modern Android app built with Flutter for tracking cryptocurrency prices and m
 This application allows users to monitor live cryptocurrency prices, view market changes, and build a personal watchlist. It is designed with a clean interface and leverages the latest Flutter best practices.
 
 **Features:**
+
 - Live cryptocurrency price tracking
 - Customizable watchlist
 - Detailed market charts and stats
@@ -48,7 +47,6 @@ This application allows users to monitor live cryptocurrency prices, view market
 - Built using Flutter and Dart
 
 ---
->>>>>>> 4858ea4d91ac8c93fd2c88835204dae064b34eb3
 
 ## Getting Started
 
@@ -83,8 +81,6 @@ For detailed guidance on Flutter development, visit the [official Flutter docume
 
 ## License
 
-<<<<<<< HEAD
-This project is licensed under the MIT License. See the LICENSE file for more details.
 =======
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
@@ -104,4 +100,3 @@ samples, guidance on mobile development, and a full API reference.
 ## License
 
 [MIT](LICENSE)
->>>>>>> 4858ea4d91ac8c93fd2c88835204dae064b34eb3
