@@ -16,20 +16,20 @@ The Flutter Crypto App is a cutting-edge mobile application designed for cryptoc
 
 Below are some screenshots of the app:
 
-- <img src="images/Screenshot_1740620575.png" alt="Screenshot 12" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620083.png" alt="Screenshot 1" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620094.png" alt="Screenshot 2" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620104.png" alt="Screenshot 3" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620124.png" alt="Screenshot 4" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620394.png" alt="Screenshot 10" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620540.png" alt="Screenshot 11" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620155.png" alt="Screenshot 5" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620226.png" alt="Screenshot 6" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620232.png" alt="Screenshot 7" width="300" style="margin-bottom: 20px;">
-- <img src="images/Screenshot_1740620250.png" alt="Screenshot 8" width="300" style="margin-bottom: 20px;">
-- # <img src="images/Screenshot_1740620260.png" alt="Screenshot 9" width="300" style="margin-bottom: 20px;">
-  A modern Android app built with Flutter for tracking cryptocurrency prices and market data.
+- <img src="images/Screenshot_1740620575.png" alt="Screenshot 12"   style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620083.png" alt="Screenshot 1" style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620094.png" alt="Screenshot 2" style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620104.png" alt="Screenshot 3" style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620124.png" alt="Screenshot 4"style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620394.png" alt="Screenshot 10"style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620540.png" alt="Screenshot 11" style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620155.png" alt="Screenshot 5" style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620226.png" alt="Screenshot 6" style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620232.png" alt="Screenshot 7"  style="margin-bottom: 20px;">
+- <img src="images/Screenshot_1740620250.png" alt="Screenshot 8" style="margin-bottom: 20px;">
+- # <img src="images/Screenshot_1740620260.png" alt="Screenshot 9" style="margin-bottom: 20px;">
 
+  A modern Android app built with Flutter for tracking cryptocurrency prices and market data.
 ---
 
 ## Description
