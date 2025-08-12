@@ -1,7 +1,7 @@
 // lib/models/transaction.dart
 class Transaction {
   final String transactionId;
-  final String type; // مثلاً: 'deposit', 'withdrawal', 'trade'
+  final String type; // 'deposit', 'withdrawal', 'trade'
   final double amount;
   final DateTime date;
   final String status;
