@@ -40,26 +40,6 @@ Below are some screenshots of the app:
 
 ---
 
-- <img src="images/Screenshot_1740620540.png" alt="Screenshot 11" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620155.png" alt="Screenshot 5" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620226.png" alt="Screenshot 6" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620232.png" alt="Screenshot 7" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620250.png" alt="Screenshot 8" width="400" style="margin-bottom: 40px;">
-
----
-
 - <img src="images/Screenshot_1740620260.png" alt="Screenshot 9" width="400" style="margin-bottom: 40px;">
 
 ---
