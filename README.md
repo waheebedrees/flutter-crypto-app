@@ -24,22 +24,6 @@ Below are some screenshots of the app:
 
 ---
 
-- <img src="images/Screenshot_1740620094.png" alt="Screenshot 2" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620104.png" alt="Screenshot 3" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620124.png" alt="Screenshot 4" width="400" style="margin-bottom: 40px;">
-
----
-
-- <img src="images/Screenshot_1740620394.png" alt="Screenshot 10" width="400" style="margin-bottom: 40px;">
-
----
-
 - <img src="images/Screenshot_1740620260.png" alt="Screenshot 9" width="400" style="margin-bottom: 40px;">
 
 ---
